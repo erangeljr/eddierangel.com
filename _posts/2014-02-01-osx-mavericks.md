@@ -2,7 +2,7 @@
 layout: post
 title:  "Maverick and the Goose"
 date:   2014-02-01 08:48:57
-categories: software osx mac hacking
+categories: software macosx hacking
 ---
 
 So, I finally upgraded the Mac Book Pro to OS X Mavericks. That's Version 10.9.1. So far it's working as anticipated. I've been poking around

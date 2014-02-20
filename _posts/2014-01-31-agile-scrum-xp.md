@@ -2,7 +2,7 @@
 layout: post
 title:  "Do you Agile?"
 date:   2014-01-31 22:17:57
-categories: blog software engineering computer science hacking
+categories: blog softwareengineering computerscience hacking
 ---
 
 Are you a part of an Agile Software Development Team? How do you know? I've been reading the Agile Project Management book by Jim Highsmith. In his book he says, "Agility is principally about mindset, not practices." In his book he recommends asking yourself and/or Project Leaders a set of questions to assist in determining whether you have an agile mindset. 
