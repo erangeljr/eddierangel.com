@@ -4,8 +4,8 @@ pygments: true
 include: [js, bootstrap.min.js, site.js]
 include: [font, glyphicons-halflings-regular.eot, glyphicons-halflings-regular.svg, glyphicons-halflings-regular.ttf, glyphicons-halflings-regular.woff]
 include: [archives, index.html]
-destination: ../erangeljr.github.io
+#destination: ../erangeljr.github.io
 #LOCAL DEVELOPMENT
-#url:         http://localhost:4000
+url:         http://localhost:4000
 #PRODUCTION
-url:         http://eddierangel.com
+#url:         http://eddierangel.com

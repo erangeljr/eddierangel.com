@@ -206,5 +206,3 @@ Name: Medicine
 
 I used the HTML tags for demonstration purposes only. I wanted a way to convey that you could apply style or whatever you wanted. Since this is just a Console Application demo, I'm kind of limited on what I can display. Either way. Hope you enjoyed my working example. Don't forget to check out the whole project on <a href="https://github.com/erangeljr/DesignPatterns/tree/master/BridgePattern">Github.</a>
 
-
-
