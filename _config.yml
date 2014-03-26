@@ -9,3 +9,11 @@ include: [archives, index.html]
 url:         http://localhost:4000
 #PRODUCTION
 #url:         http://eddierangel.com
+
+# Github repositories
+github_user: erangeljr
+github_repo_url: https://github.com/erangeljr/erangeljr.github.io
+
+# Disqus Comments
+disqus_short_name: eddierangelcom
+disqus_show_comment_count: true
