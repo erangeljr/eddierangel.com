@@ -20,3 +20,7 @@ disqus_show_comment_count: true
 
 # Google Analytics
 google_analytics_tracking_id: UA-47781516-1
+
+# Twitter
+twitter_user: eddie_31003
+twitter_tweet_button: true
