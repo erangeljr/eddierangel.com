@@ -2,6 +2,7 @@
 layout: post
 title:  "String Extensions using Action Delegate"
 date:   2014-02-09 13:48:57
+comments: true
 categories: softwareengineering hacking csharp
 ---
 
@@ -12,11 +13,11 @@ void Main()
 {
 
 	"log this message".Log();
-	
+
 	var textToLog = "This is a log";
-	
+
 	textToLog.Log();
-	
+
 	"{0} This is a new string {1}".Log(new[] {"pre", "post"});
 }
 

@@ -2,6 +2,7 @@
 layout: post
 title:  "Welcome to EddieRangel.com!"
 date:   2014-01-28 22:17:57
+comments: true
 categories: blog softwareengineering computerscience hacking
 ---
 

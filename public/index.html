@@ -292,7 +292,7 @@ I then added an Interface I call an IFormatter to implement the variations neede
     <span class="k">protected</span> <span class="k">readonly</span> <span class="n">IFormatter</span> <span class="n">formatter</span><span class="p">;</span>
 
     <span class="k">public</span> <span class="nf">Referral</span><span class="p">(</span><span class="n">IFormatter</span> <span class="n">formatter</span><span class="p">)</span>
-    <span class="p">{</span> 
+    <span class="p">{</span>
         <span class="k">this</span><span class="p">.</span><span class="n">formatter</span> <span class="p">=</span> <span class="n">formatter</span><span class="p">;</span>
     <span class="p">}</span>
 
@@ -329,8 +329,8 @@ I then added an Interface I call an IFormatter to implement the variations neede
     <span class="k">public</span> <span class="nf">Pharmacy</span><span class="p">(</span><span class="n">IFormatter</span> <span class="n">formatter</span><span class="p">)</span>
         <span class="p">:</span> <span class="k">base</span><span class="p">(</span><span class="n">formatter</span><span class="p">)</span>
     <span class="p">{</span>
-      
-        <span class="n">NationalDrugCode</span> <span class="p">=</span> <span class="k">new</span> <span class="n">Dictionary</span><span class="p">&lt;</span><span class="kt">string</span><span class="p">,</span> <span class="kt">string</span><span class="p">&gt;();</span> 
+
+        <span class="n">NationalDrugCode</span> <span class="p">=</span> <span class="k">new</span> <span class="n">Dictionary</span><span class="p">&lt;</span><span class="kt">string</span><span class="p">,</span> <span class="kt">string</span><span class="p">&gt;();</span>
 
     <span class="p">}</span>
 
@@ -467,11 +467,11 @@ T   Time-boxed      How much time will it take?</code></pre></div>
 <span class="p">{</span>
 
     <span class="s">&quot;log this message&quot;</span><span class="p">.</span><span class="n">Log</span><span class="p">();</span>
-    
+
     <span class="kt">var</span> <span class="n">textToLog</span> <span class="p">=</span> <span class="s">&quot;This is a log&quot;</span><span class="p">;</span>
-    
+
     <span class="n">textToLog</span><span class="p">.</span><span class="n">Log</span><span class="p">();</span>
-    
+
     <span class="s">&quot;{0} This is a new string {1}&quot;</span><span class="p">.</span><span class="n">Log</span><span class="p">(</span><span class="k">new</span><span class="p">[]</span> <span class="p">{</span><span class="s">&quot;pre&quot;</span><span class="p">,</span> <span class="s">&quot;post&quot;</span><span class="p">});</span>
 <span class="p">}</span>
 
@@ -490,6 +490,8 @@ T   Time-boxed      How much time will it take?</code></pre></div>
 <div class="highlight"><pre><code class="language-text" data-lang="text">log this message
 This is a log
 pre This is a new string post</code></pre></div>
+
+
 
 
 		

@@ -2,6 +2,7 @@
 layout: post
 title:  "Maverick and the Goose"
 date:   2014-02-01 08:48:57
+comments: true
 categories: software macosx hacking
 ---
 

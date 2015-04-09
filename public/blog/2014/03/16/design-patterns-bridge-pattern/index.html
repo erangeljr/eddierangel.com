@@ -213,7 +213,7 @@ I then added an Interface I call an IFormatter to implement the variations neede
     <span class="k">protected</span> <span class="k">readonly</span> <span class="n">IFormatter</span> <span class="n">formatter</span><span class="p">;</span>
 
     <span class="k">public</span> <span class="nf">Referral</span><span class="p">(</span><span class="n">IFormatter</span> <span class="n">formatter</span><span class="p">)</span>
-    <span class="p">{</span> 
+    <span class="p">{</span>
         <span class="k">this</span><span class="p">.</span><span class="n">formatter</span> <span class="p">=</span> <span class="n">formatter</span><span class="p">;</span>
     <span class="p">}</span>
 
@@ -250,8 +250,8 @@ I then added an Interface I call an IFormatter to implement the variations neede
     <span class="k">public</span> <span class="nf">Pharmacy</span><span class="p">(</span><span class="n">IFormatter</span> <span class="n">formatter</span><span class="p">)</span>
         <span class="p">:</span> <span class="k">base</span><span class="p">(</span><span class="n">formatter</span><span class="p">)</span>
     <span class="p">{</span>
-      
-        <span class="n">NationalDrugCode</span> <span class="p">=</span> <span class="k">new</span> <span class="n">Dictionary</span><span class="p">&lt;</span><span class="kt">string</span><span class="p">,</span> <span class="kt">string</span><span class="p">&gt;();</span> 
+
+        <span class="n">NationalDrugCode</span> <span class="p">=</span> <span class="k">new</span> <span class="n">Dictionary</span><span class="p">&lt;</span><span class="kt">string</span><span class="p">,</span> <span class="kt">string</span><span class="p">&gt;();</span>
 
     <span class="p">}</span>
 
@@ -307,6 +307,12 @@ I then added an Interface I call an IFormatter to implement the variations neede
 </div>
 
 
+
+<section id="comment">
+    <h1 class="title">Comments</h1>
+    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+</section>
 </div>
 			</div>
 			<footer id="footer" class="inner">Copyright &copy; 2015
@@ -325,7 +331,10 @@ I then added an Interface I call an IFormatter to implement the variations neede
       var disqus_shortname = 'eddierangelcom';
       
         
-        var disqus_script = 'count.js';
+        // var disqus_developer = 1;
+        var disqus_identifier = 'http://eddierangel.com/blog/2014/03/16/design-patterns-bridge-pattern/';
+        var disqus_url = 'http://eddierangel.com/blog/2014/03/16/design-patterns-bridge-pattern/';
+        var disqus_script = 'embed.js';
       
     (function () {
       var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;

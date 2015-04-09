@@ -2,16 +2,17 @@
 layout: post
 title:  "Design Patterns: Bridge Pattern"
 date:   2014-03-16 17:48:57
+comments: true
 categories: softwareengineering computerscience designpatterns bridgepattern
 ---
 
-I have been learning about different <a href="http://en.wikipedia.org/wiki/Design_Patterns">Design Patterns</a>. I purchased the book <a href="http://www.amazon.com/Design-Patterns-Elements-Reusable-Object-Oriented/dp/0201633612/">Design Patterns</a> by the Gang of Four and have been going through trying to implement them using C#. 
+I have been learning about different <a href="http://en.wikipedia.org/wiki/Design_Patterns">Design Patterns</a>. I purchased the book <a href="http://www.amazon.com/Design-Patterns-Elements-Reusable-Object-Oriented/dp/0201633612/">Design Patterns</a> by the Gang of Four and have been going through trying to implement them using C#.
 
-I am going to start off with the <a href="http://en.wikipedia.org/wiki/Bridge_pattern">Bridge Pattern</a>. 
+I am going to start off with the <a href="http://en.wikipedia.org/wiki/Bridge_pattern">Bridge Pattern</a>.
 
-The Bridge Patterns is used to decouple an abstraction from its implementation. This will allow them to vary independently. 
+The Bridge Patterns is used to decouple an abstraction from its implementation. This will allow them to vary independently.
 
-Let's say you have several types of related objects that you need to print. 
+Let's say you have several types of related objects that you need to print.
 
 {% highlight csharp %}
 void Main()
@@ -49,7 +50,7 @@ public class Pharmacy{
 
 This is what we would typically do. Create a Print method that handles the printing of each of the Pharmacy objects.
 
-Output: 
+Output:
 
 {% highlight csharp %}
 Pharmacy Number: 9
@@ -60,7 +61,7 @@ Name: Medicine
 
 Let's say you had several object that needed the same type of functionality and they were similar enough that they could share an interface.
 
-You could then create an interface that contained a print method that each object would implement. 
+You could then create an interface that contained a print method that each object would implement.
 
 {% highlight csharp %}
  public interface Referral
@@ -115,7 +116,7 @@ class BridgeMain
 }
 {% endhighlight %}
 
-Here I refactored the Referral Class from being an Interface to an Abstract Class and created an Abstract public method. 
+Here I refactored the Referral Class from being an Interface to an Abstract Class and created an Abstract public method.
 I then added an Interface I call an IFormatter to implement the variations needed for each type of Referral.
 
 {% highlight csharp %}
@@ -125,7 +126,7 @@ public abstract class Referral
     protected readonly IFormatter formatter;
 
     public Referral(IFormatter formatter)
-    { 
+    {
         this.formatter = formatter;
     }
 
@@ -164,8 +165,8 @@ public class Pharmacy : Referral
     public Pharmacy(IFormatter formatter)
         : base(formatter)
     {
-      
-        NationalDrugCode = new Dictionary<string, string>(); 
+
+        NationalDrugCode = new Dictionary<string, string>();
 
     }
 
@@ -184,9 +185,9 @@ public class Pharmacy : Referral
 }
 {% endhighlight %}
 
-We can then create custom Formatters to handle different formats for printing out our objects. 
+We can then create custom Formatters to handle different formats for printing out our objects.
 
-Here's the output for the different formatters I used for each of the objects that inherit the Abstract Class which implemnt the Interface. 
+Here's the output for the different formatters I used for each of the objects that inherit the Abstract Class which implemnt the Interface.
 
 {% highlight csharp %}
 Pharmacy Number: 9
@@ -205,4 +206,3 @@ Name: Medicine
 {% endhighlight %}
 
 I used the HTML tags for demonstration purposes only. I wanted a way to convey that you could apply style or whatever you wanted. Since this is just a Console Application demo, I'm kind of limited on what I can display. Either way. Hope you enjoyed my working example. Don't forget to check out the whole project on <a href="https://github.com/erangeljr/DesignPatterns/tree/master/BridgePattern">Github.</a>
-

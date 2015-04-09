@@ -5,7 +5,7 @@
   <title><![CDATA[Category: bridgepattern | Just Another Hacker... and his blog]]></title>
   <link href="http://eddierangel.com/blog/categories/bridgepattern/atom.xml" rel="self"/>
   <link href="http://eddierangel.com/"/>
-  <updated>2015-04-09T16:34:21-07:00</updated>
+  <updated>2015-04-09T16:38:19-07:00</updated>
   <id>http://eddierangel.com/</id>
   <author>
     <name><![CDATA[Eddie Rangel]]></name>
@@ -135,7 +135,7 @@ I then added an Interface I call an IFormatter to implement the variations neede
 <span class="p">&lt;</span><span class="n">pre</span><span class="p">&gt;&lt;</span><span class="n">code</span><span class="p">&gt;</span><span class="k">protected</span> <span class="k">readonly</span> <span class="n">IFormatter</span> <span class="n">formatter</span><span class="p">;</span>
 
 <span class="k">public</span> <span class="nf">Referral</span><span class="p">(</span><span class="n">IFormatter</span> <span class="n">formatter</span><span class="p">)</span>
-<span class="p">{</span> 
+<span class="p">{</span>
     <span class="k">this</span><span class="p">.</span><span class="n">formatter</span> <span class="p">=</span> <span class="n">formatter</span><span class="p">;</span>
 <span class="p">}</span>
 
@@ -173,7 +173,7 @@ I then added an Interface I call an IFormatter to implement the variations neede
     <span class="p">:</span> <span class="k">base</span><span class="p">(</span><span class="n">formatter</span><span class="p">)</span>
 <span class="p">{</span>
 
-    <span class="n">NationalDrugCode</span> <span class="p">=</span> <span class="k">new</span> <span class="n">Dictionary</span><span class="p">&amp;</span><span class="n">lt</span><span class="p">;</span><span class="kt">string</span><span class="p">,</span> <span class="kt">string</span><span class="p">&amp;</span><span class="n">gt</span><span class="p">;();</span> 
+    <span class="n">NationalDrugCode</span> <span class="p">=</span> <span class="k">new</span> <span class="n">Dictionary</span><span class="p">&amp;</span><span class="n">lt</span><span class="p">;</span><span class="kt">string</span><span class="p">,</span> <span class="kt">string</span><span class="p">&amp;</span><span class="n">gt</span><span class="p">;();</span>
 
 <span class="p">}</span>
 
