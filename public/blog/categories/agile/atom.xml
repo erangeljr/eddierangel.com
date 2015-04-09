@@ -1,10 +1,11 @@
+
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: agile | Just Another Hacker... and his blog]]></title>
   <link href="http://eddierangel.com/blog/categories/agile/atom.xml" rel="self"/>
   <link href="http://eddierangel.com/"/>
-  <updated>2015-04-09T15:27:24-07:00</updated>
+  <updated>2015-04-09T16:34:21-07:00</updated>
   <id>http://eddierangel.com/</id>
   <author>
     <name><![CDATA[Eddie Rangel]]></name>
