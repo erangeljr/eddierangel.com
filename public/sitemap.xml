@@ -1,6 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>http://eddierangel.com/blog/2014/10/26/agile-methods-project-management/</loc>
+    <lastmod>2014-10-26T06:48:57-07:00</lastmod>
+  </url>
+  <url>
+    <loc>http://eddierangel.com/blog/2014/03/16/design-patterns-bridge-pattern/</loc>
+    <lastmod>2014-03-16T10:48:57-07:00</lastmod>
+  </url>
+  <url>
+    <loc>http://eddierangel.com/blog/2014/02/19/do-you-invest/</loc>
+    <lastmod>2014-02-19T05:48:57-08:00</lastmod>
+  </url>
+  <url>
+    <loc>http://eddierangel.com/blog/2014/02/09/string-extensions-using-action-delegate/</loc>
+    <lastmod>2014-02-09T05:48:57-08:00</lastmod>
+  </url>
+  <url>
+    <loc>http://eddierangel.com/blog/2014/02/04/UpdatesAndUpgrades/</loc>
+    <lastmod>2014-02-04T05:48:57-08:00</lastmod>
+  </url>
+  <url>
+    <loc>http://eddierangel.com/blog/2014/02/01/osx-mavericks/</loc>
+    <lastmod>2014-02-01T00:48:57-08:00</lastmod>
+  </url>
+  <url>
+    <loc>http://eddierangel.com/blog/2014/01/31/agile-scrum-xp/</loc>
+    <lastmod>2014-01-31T14:17:57-08:00</lastmod>
+  </url>
+  <url>
+    <loc>http://eddierangel.com/blog/2014/01/28/initialization/</loc>
+    <lastmod>2014-01-28T14:17:57-08:00</lastmod>
+  </url>
+  <url>
     <loc>http://eddierangel.com/blog/archives/</loc>
   </url>
   <url>
@@ -17,5 +49,44 @@
   </url>
   <url>
     <loc>http://eddierangel.com/teaching/others/</loc>
+  </url>
+  <url>
+    <loc>http://eddierangel.com/blog/categories/blog/</loc>
+  </url>
+  <url>
+    <loc>http://eddierangel.com/blog/categories/softwareengineering/</loc>
+  </url>
+  <url>
+    <loc>http://eddierangel.com/blog/categories/computerscience/</loc>
+  </url>
+  <url>
+    <loc>http://eddierangel.com/blog/categories/hacking/</loc>
+  </url>
+  <url>
+    <loc>http://eddierangel.com/blog/categories/software/</loc>
+  </url>
+  <url>
+    <loc>http://eddierangel.com/blog/categories/macosx/</loc>
+  </url>
+  <url>
+    <loc>http://eddierangel.com/blog/categories/hardware/</loc>
+  </url>
+  <url>
+    <loc>http://eddierangel.com/blog/categories/csharp/</loc>
+  </url>
+  <url>
+    <loc>http://eddierangel.com/blog/categories/agile/</loc>
+  </url>
+  <url>
+    <loc>http://eddierangel.com/blog/categories/scrum/</loc>
+  </url>
+  <url>
+    <loc>http://eddierangel.com/blog/categories/xp/</loc>
+  </url>
+  <url>
+    <loc>http://eddierangel.com/blog/categories/designpatterns/</loc>
+  </url>
+  <url>
+    <loc>http://eddierangel.com/blog/categories/bridgepattern/</loc>
   </url>
 </urlset>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: macosx | Just Another Hacker... and his blog]]></title>
+  <link href="http://eddierangel.com/blog/categories/macosx/atom.xml" rel="self"/>
+  <link href="http://eddierangel.com/"/>
+  <updated>2015-04-09T15:27:24-07:00</updated>
+  <id>http://eddierangel.com/</id>
+  <author>
+    <name><![CDATA[Eddie Rangel]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Maverick and the Goose]]></title>
+    <link href="http://eddierangel.com/blog/2014/02/01/osx-mavericks/"/>
+    <updated>2014-02-01T00:48:57-08:00</updated>
+    <id>http://eddierangel.com/blog/2014/02/01/osx-mavericks</id>
+    <content type="html"><![CDATA[<p>So, I finally upgraded the Mac Book Pro to OS X Mavericks. That&rsquo;s Version 10.9.1. So far it&rsquo;s working as anticipated. I&rsquo;ve been poking around
+to make sure nothing has broken. I&rsquo;ve ordered some RAM to take it to 16 GB&rsquo;s, given that I&rsquo;m now using this device as my primary hacking platform. I needed more
+memory to support my Virtual Machines. Happy Hacking!!</p>
+]]></content>
+  </entry>
+  
+</feed>

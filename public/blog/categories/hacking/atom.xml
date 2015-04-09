@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: hacking | Just Another Hacker... and his blog]]></title>
+  <link href="http://eddierangel.com/blog/categories/hacking/atom.xml" rel="self"/>
+  <link href="http://eddierangel.com/"/>
+  <updated>2015-04-09T15:27:24-07:00</updated>
+  <id>http://eddierangel.com/</id>
+  <author>
+    <name><![CDATA[Eddie Rangel]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[String Extensions using Action Delegate]]></title>
+    <link href="http://eddierangel.com/blog/2014/02/09/string-extensions-using-action-delegate/"/>
+    <updated>2014-02-09T05:48:57-08:00</updated>
+    <id>http://eddierangel.com/blog/2014/02/09/string-extensions-using-action-delegate</id>
+    <content type="html"><![CDATA[<p>I was introduced to an Action Delegate on Friday. An Action Delegate encapsulates a method that has no parameters and does not return a value. In this example it will encapsulate a method that has two parameters, a string and a string array. My example Extends the string data type to include a Log Method that writes the string to the Console. You could modify this to write to a Log File.</p>
+
+<p><div class="highlight"><pre><code class="language-csharp" data-lang="csharp"><span class="k">void</span> <span class="nf">Main</span><span class="p">()</span>
+<span class="p">{&lt;/</span><span class="n">p</span><span class="p">&gt;</span>
+
+<span class="p">&lt;</span><span class="n">pre</span><span class="p">&gt;&lt;</span><span class="n">code</span><span class="p">&gt;</span><span class="s">&quot;log this message&quot;</span><span class="p">.</span><span class="n">Log</span><span class="p">();</span>
+
+<span class="kt">var</span> <span class="n">textToLog</span> <span class="p">=</span> <span class="s">&quot;This is a log&quot;</span><span class="p">;</span>
+
+<span class="n">textToLog</span><span class="p">.</span><span class="n">Log</span><span class="p">();</span>
+
+<span class="s">&quot;{0} This is a new string {1}&quot;</span><span class="p">.</span><span class="n">Log</span><span class="p">(</span><span class="k">new</span><span class="p">[]</span> <span class="p">{</span><span class="s">&quot;pre&quot;</span><span class="p">,</span> <span class="s">&quot;post&quot;</span><span class="p">});</span>
+<span class="p">&lt;/</span><span class="n">code</span><span class="p">&gt;&lt;/</span><span class="n">pre</span><span class="p">&gt;</span>
+
+<span class="p">&lt;</span><span class="n">p</span><span class="p">&gt;}&lt;/</span><span class="n">p</span><span class="p">&gt;</span>
+
+<span class="p">&lt;</span><span class="n">p</span><span class="p">&gt;</span><span class="k">public</span> <span class="k">static</span> <span class="k">class</span> <span class="nc">StringExtensions</span><span class="p">{&lt;/</span><span class="n">p</span><span class="p">&gt;</span>
+
+<span class="p">&lt;</span><span class="n">pre</span><span class="p">&gt;&lt;</span><span class="n">code</span><span class="p">&gt;</span><span class="k">public</span> <span class="k">static</span> <span class="k">void</span> <span class="n">Log</span><span class="p">(</span><span class="k">this</span> <span class="kt">string</span> <span class="n">message</span><span class="p">,</span> <span class="kt">string</span><span class="p">[]</span> <span class="n">paramList</span> <span class="p">=</span> <span class="k">null</span><span class="p">){</span>
+    <span class="n">Action</span><span class="p">&amp;</span><span class="n">lt</span><span class="p">;</span><span class="kt">string</span><span class="p">,</span> <span class="kt">string</span><span class="p">[]&amp;</span><span class="n">gt</span><span class="p">;</span> <span class="n">log</span> <span class="p">=</span> <span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">;</span>
+    <span class="n">log</span><span class="p">(</span><span class="n">message</span><span class="p">,</span> <span class="n">paramList</span><span class="p">);</span>
+<span class="p">}</span>
+<span class="p">&lt;/</span><span class="n">code</span><span class="p">&gt;&lt;/</span><span class="n">pre</span><span class="p">&gt;</span>
+
+<span class="p">&lt;</span><span class="n">p</span><span class="p">&gt;}&lt;/</span><span class="n">p</span><span class="p">&gt;</span>
+
+<span class="p">&lt;</span><span class="n">p</span><span class="p">&gt;</span></code></pre></div></p>
+
+<p>This is what would be output to the Console.</p>
+
+<p><div class="highlight"><pre><code class="language-text" data-lang="text">&lt;/p&gt;
+
+&lt;p&gt;log this message
+This is a log
+pre This is a new string post&lt;/p&gt;
+
+&lt;p&gt;</code></pre></div></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Updates and Upgrades]]></title>
+    <link href="http://eddierangel.com/blog/2014/02/04/UpdatesAndUpgrades/"/>
+    <updated>2014-02-04T05:48:57-08:00</updated>
+    <id>http://eddierangel.com/blog/2014/02/04/UpdatesAndUpgrades</id>
+    <content type="html"><![CDATA[<p>I installed my 16 GB&rsquo;s of RAM in my Mac Book Pro. It&rsquo;s purring like a kitten. Over the last couple of nights I built a new VM for my Windows Hacking. It&rsquo;s running 8.1 along with VS 2013 and MSSQL 2012. Plus some extras like Resharper. I really like having the additional RAM, it really helps when you want to leverage more of the technology you have.</p>
+
+<p>I also updated this site with some plugins. Adding Twitter, Google+, and LinkedIn. I also threw some google analytics on here.</p>
+
+<p>This site is still in active development. I have a goal to try to contribute everyday to my GitHub repositories. I&rsquo;m using this site as a launching pad to get me into a habit of hacking outside of work. I have a couple of side project I&rsquo;ve been working. I hope to have an MVP up and running soon.</p>
+
+<p>Check you later&hellip;</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Maverick and the Goose]]></title>
+    <link href="http://eddierangel.com/blog/2014/02/01/osx-mavericks/"/>
+    <updated>2014-02-01T00:48:57-08:00</updated>
+    <id>http://eddierangel.com/blog/2014/02/01/osx-mavericks</id>
+    <content type="html"><![CDATA[<p>So, I finally upgraded the Mac Book Pro to OS X Mavericks. That&rsquo;s Version 10.9.1. So far it&rsquo;s working as anticipated. I&rsquo;ve been poking around
+to make sure nothing has broken. I&rsquo;ve ordered some RAM to take it to 16 GB&rsquo;s, given that I&rsquo;m now using this device as my primary hacking platform. I needed more
+memory to support my Virtual Machines. Happy Hacking!!</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Do you Agile?]]></title>
+    <link href="http://eddierangel.com/blog/2014/01/31/agile-scrum-xp/"/>
+    <updated>2014-01-31T14:17:57-08:00</updated>
+    <id>http://eddierangel.com/blog/2014/01/31/agile-scrum-xp</id>
+    <content type="html"><![CDATA[<p>Are you a part of an Agile Software Development Team? How do you know? I&rsquo;ve been reading the Agile Project Management book by Jim Highsmith. In his book he says, &ldquo;Agility is principally about mindset, not practices.&rdquo; In his book he recommends asking yourself and/or Project Leaders a set of questions to assist in determining whether you have an agile mindset.</p>
+
+<p>&ldquo;In what specific ways and with what practices do you focous on value first and constraints last?&rdquo;
+&ldquo;In what specific ways and with what practices do you manage teams rather than tasks?&rdquo;
+&ldquo;In what specific ways and with what practices do you adapt to change rather than conform to plans?&rdquo;</p>
+
+<p>As I was reading through the first couple of chapters, I found myself relating to a lot of the pit falls people experience when they&rsquo;re working on Teams who are Agile In Name Only. Don&rsquo;t be AINO!</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Welcome to EddieRangel.com!]]></title>
+    <link href="http://eddierangel.com/blog/2014/01/28/initialization/"/>
+    <updated>2014-01-28T14:17:57-08:00</updated>
+    <id>http://eddierangel.com/blog/2014/01/28/initialization</id>
+    <content type="html"><![CDATA[<p>&ldquo;Oh, welcome to this world of fools
+Of pink champagne and swimming pools
+Well, all you have to lose is your virginity
+Perhaps we&rsquo;ll have some fun tonight
+So stick around and take a bite of life
+We don&rsquo;t need feebleness in this proximity&rdquo; - Primus</p>
+]]></content>
+  </entry>
+  
+</feed>

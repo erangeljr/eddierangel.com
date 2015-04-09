@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: blog | Just Another Hacker... and his blog]]></title>
+  <link href="http://eddierangel.com/blog/categories/blog/atom.xml" rel="self"/>
+  <link href="http://eddierangel.com/"/>
+  <updated>2015-04-09T15:27:24-07:00</updated>
+  <id>http://eddierangel.com/</id>
+  <author>
+    <name><![CDATA[Eddie Rangel]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Do you Agile?]]></title>
+    <link href="http://eddierangel.com/blog/2014/01/31/agile-scrum-xp/"/>
+    <updated>2014-01-31T14:17:57-08:00</updated>
+    <id>http://eddierangel.com/blog/2014/01/31/agile-scrum-xp</id>
+    <content type="html"><![CDATA[<p>Are you a part of an Agile Software Development Team? How do you know? I&rsquo;ve been reading the Agile Project Management book by Jim Highsmith. In his book he says, &ldquo;Agility is principally about mindset, not practices.&rdquo; In his book he recommends asking yourself and/or Project Leaders a set of questions to assist in determining whether you have an agile mindset.</p>
+
+<p>&ldquo;In what specific ways and with what practices do you focous on value first and constraints last?&rdquo;
+&ldquo;In what specific ways and with what practices do you manage teams rather than tasks?&rdquo;
+&ldquo;In what specific ways and with what practices do you adapt to change rather than conform to plans?&rdquo;</p>
+
+<p>As I was reading through the first couple of chapters, I found myself relating to a lot of the pit falls people experience when they&rsquo;re working on Teams who are Agile In Name Only. Don&rsquo;t be AINO!</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Welcome to EddieRangel.com!]]></title>
+    <link href="http://eddierangel.com/blog/2014/01/28/initialization/"/>
+    <updated>2014-01-28T14:17:57-08:00</updated>
+    <id>http://eddierangel.com/blog/2014/01/28/initialization</id>
+    <content type="html"><![CDATA[<p>&ldquo;Oh, welcome to this world of fools
+Of pink champagne and swimming pools
+Well, all you have to lose is your virginity
+Perhaps we&rsquo;ll have some fun tonight
+So stick around and take a bite of life
+We don&rsquo;t need feebleness in this proximity&rdquo; - Primus</p>
+]]></content>
+  </entry>
+  
+</feed>
